@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-famly: Verdana, sans-serif;
+}
+
+
+#wrap {
+    width: 66%;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%;
+}
+
+header {
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+}
+
+nav {
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav li{
+    display: inline;
+}
+
+nav a {
+    color:white;
+    font-size: 170%;
+    padding:20px 40px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding:20px 60px 40px;
+    overflow:auto;
+}
+
+footer {
+    background-color: brown;
+    color:white;
+    text-align:center;
+    padding: 10px;
+}
+
+.pod {
+    width:30%;
+    float:right;
+    margin-top: -40px;
+}
+
+.button {
+    background-color: orangered;
+    color:Black;
+    text-decoration: none;
+    font-size: 130%;
+    padding:20px;
+    display:inline-block;
+    border-radius:10px;
+}
+
+a.button:hover{
+    background-color:red;
+    color:white;
+}
